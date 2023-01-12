@@ -1,0 +1,22 @@
+{
+  "name": "emreuyguc/product-feeder",
+  "description": "multiple marketplace product feeder package",
+  "minimum-stability": "stable",
+  "version":"1.0.0",
+  "require" : {
+    "php": ">=7.4"
+  },
+  "type":"library",
+  "license": "proprietary",
+  "autoload":{
+    "psr-4":{
+      "emreuyguc\\ProductFeeder\\":"src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "emreuyguc",
+      "email": "emreuyguc@gmail.com"
+    }
+  ]
+}
